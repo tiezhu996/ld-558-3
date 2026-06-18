@@ -7,7 +7,8 @@ export function useRecyclingData() {
 
   return {
     ...refs,
-    exchange: store.exchange
+    exchange: store.exchange,
+    redeem: store.redeem
   };
 }
 

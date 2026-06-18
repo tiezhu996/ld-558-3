@@ -1,4 +1,4 @@
-export type AuditAction = 'CARBON_RECORD' | 'POINT_EXCHANGE' | 'CHARITY_DONATION';
+export type AuditAction = 'CARBON_RECORD' | 'POINT_EXCHANGE' | 'CHARITY_DONATION' | 'REDEEM_POINTS';
 
 export interface AuditLogEntry {
   operator: string;

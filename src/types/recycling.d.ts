@@ -13,3 +13,22 @@ export interface RecyclingRank {
   extra?: string;
 }
 
+export interface RedeemItem {
+  id: string;
+  name: string;
+  cost: number;
+  description: string;
+  icon: string;
+  stock: number;
+}
+
+export interface RedeemRecord {
+  id: string;
+  userId: string;
+  itemId: string;
+  itemName: string;
+  cost: number;
+  redeemedAt: string;
+  status: 'success' | 'pending' | 'failed';
+}
+
